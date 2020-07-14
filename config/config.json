@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "p@ssw0rd1",
-    "database": "loo_db",
-    "host": "127.0.0.1",
+    "username": "xob77s054y1nv4jw",
+    "password": "p3kphngwssdgj26c",
+    "database": "f26dybq4waqgh3lh",
+    "host": "d6vscs19jtah8iwb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "xob77s054y1nv4jw",
+    "password": "p3kphngwssdgj26c",
+    "database": "f26dybq4waqgh3lh",
+    "host": "d6vscs19jtah8iwb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "xob77s054y1nv4jw",
+    "password": "p3kphngwssdgj26c",
+    "database": "f26dybq4waqgh3lh",
+    "host": "d6vscs19jtah8iwb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
