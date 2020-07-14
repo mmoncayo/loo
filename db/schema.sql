@@ -1,9 +1,9 @@
 
-DROP DATABASE IF EXISTS `loo_db`;
-CREATE DATABASE `loo_db`;
-USE `loo_db`;
+DROP DATABASE IF EXISTS `f26dybq4waqgh3lh`;
+CREATE DATABASE `f26dybq4waqgh3lh`;
+USE `f26dybq4waqgh3lh`;
 
-CREATE TABLE bathroom
+CREATE TABLE Bathrooms
 (
 	id int NOT NULL AUTO_INCREMENT,
     last_verified DATETIME,
@@ -16,6 +16,9 @@ CREATE TABLE bathroom
     has_mirror BOOLEAN DEFAULT false,
     thumbs_up int,
     thumbs_down int,
+    place_id VARCHAR(255),
+    createdAt DATETIME,
+    updatedAt DATETIME,
 
 	PRIMARY KEY (id)
 );
