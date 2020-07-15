@@ -50,7 +50,8 @@ module.exports = function (app) {
       .then(async r => {
         const places = r.data.results;
         const detailedPlaces = await placeDetails(places);
-
+        console.log(detailedPlaces);
+        
         if (source === "home") {
           
           const place_ids = detailedPlaces.map(place => place.place_id);
